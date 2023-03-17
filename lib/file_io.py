@@ -10,5 +10,7 @@ def read_file(file_name):
     file_to_read = open(file_name + '.txt', encoding='utf-8')
     return file_to_read.read()
 
-        # with open(file_name + '.txt') as text_file:
-        # return text_file.read()
+    ##### also works ######
+
+    # with open(file_name + '.txt') as text_file:
+    # return text_file.read()
